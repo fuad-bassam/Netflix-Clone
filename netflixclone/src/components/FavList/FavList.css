@@ -1,0 +1,13 @@
+.fatherDiv{
+
+     display:flex;
+
+     flex-wrap: "wrap";
+
+     justify-content: "space-between";
+
+     padding: '12px';
+     
+     margin: 5px;
+
+}
