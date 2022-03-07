@@ -31,7 +31,7 @@ export default function FavList(){
 
     function deleteMovie({id}) {
         const url = `${process.env.REACT_APP_API_URL}/delete/${id}`;
-        const response = fetch(url, {
+     fetch(url, {
           method: "DELETE", headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json'
