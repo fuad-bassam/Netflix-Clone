@@ -23,8 +23,8 @@ return(
 
 
 <>
-    <Card  key={movie.id} className='cardstyle' >
-    <Card.Img variant="top" style={{ width: '250px', height:'190px'  }} src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}/>
+    <Card  border="outline-danger"  key={movie.id} className='cardstyle' >
+    <Card.Img variant="top" style={{ width: '240px', height:"190px"  }} src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}/>
     <Card.Body>
       <Card.Title>movie:- {movie.title}</Card.Title>
       <Card.Text>
